@@ -22,7 +22,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	// Find all the frontpage headlines
+	// Find all the frontpage headlines st
 	headlines := doc.Find(".col-three .headlineStack ul li")
 
 	// Print out the headlines
